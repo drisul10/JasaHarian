@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Jasa Harian</string>
+    <string name="bt_login">log in</string>
+    <string name="bt_forgot_password">lupa kata sandi</string>
+    <string name="bt_register">register</string>
+    <string name="bt_save">simpan</string>
+    <string name="bt_send">kirim</string>
+    <string name="hint_email">masukkan email</string>
+    <string name="hint_password">masukkan password</string>
+    <string name="hint_new_password">masukkan password baru</string>
+    <string name="hint_confirm_password">ulangi password</string>
+    <string name="hint_forgot_password">lupa password?</string>
+    <string name="hint_have_account">sudah punya akun?</string>
+    <string name="hint_have_no_account">belum punya akun?</string>
+</resources>
