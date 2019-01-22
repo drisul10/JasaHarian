@@ -5,6 +5,7 @@
     <string name="bt_register">register</string>
     <string name="bt_save">simpan</string>
     <string name="bt_send">kirim</string>
+    <string name="desc_image_avatar">avatar</string>
     <string name="hint_email">masukkan email</string>
     <string name="hint_password">masukkan password</string>
     <string name="hint_new_password">masukkan password baru</string>
@@ -14,4 +15,11 @@
     <string name="hint_have_no_account">belum punya akun?</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_payment">payment</string>
+    <string name="title_history">history</string>
+    <string name="title_saved_place">saved place</string>
+    <string name="title_help">help</string>
+    <string name="title_emergency">emergency</string>
+    <string name="title_setting">setting</string>
+    <string name="example_andrisoel">andrisoel</string>
 </resources>

@@ -13,5 +13,13 @@
     <item name="ly_nav_header_main" type="id" />
     <item name="vw_nav" type="id" />
     <item name="vw_nav_bottom" type="id" />
+    <item name="iv_avatar" type="id" />
+    <item name="tv_username" type="id" />
     <item name="toolbar" type="id" />
+    <item name="i_menu_payment" type="id" />
+    <item name="i_menu_history" type="id" />
+    <item name="i_menu_saved_place" type="id" />
+    <item name="i_menu_help" type="id" />
+    <item name="i_menu_emergency" type="id" />
+    <item name="i_menu_setting" type="id" />
 </resources>
