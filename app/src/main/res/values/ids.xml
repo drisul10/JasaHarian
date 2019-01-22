@@ -10,6 +10,8 @@
     <item name="et_new_password" type="id" />
     <item name="et_confirm_password" type="id" />
     <item name="ly_drawer" type="id" />
+    <item name="ly_nav_header_main" type="id" />
     <item name="vw_nav" type="id" />
+    <item name="vw_nav_bottom" type="id" />
     <item name="toolbar" type="id" />
 </resources>

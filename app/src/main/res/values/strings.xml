@@ -12,4 +12,6 @@
     <string name="hint_forgot_password">lupa password?</string>
     <string name="hint_have_account">sudah punya akun?</string>
     <string name="hint_have_no_account">belum punya akun?</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
