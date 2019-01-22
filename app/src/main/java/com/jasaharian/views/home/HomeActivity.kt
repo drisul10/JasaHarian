@@ -46,12 +46,12 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(menuItem: MenuItem): Boolean {
         when (menuItem.itemId) {
-            R.id.nav_camera -> toast("Click Camera")
-            R.id.nav_gallery -> toast("Click Gallery")
-            R.id.nav_slideshow -> toast("Click Slideshow")
-            R.id.nav_manage -> toast("Click Manage")
-            R.id.nav_share -> toast("Click Share")
-            R.id.nav_send -> toast("Click Send")
+            R.id.i_menu_payment -> toast("menu payment")
+            R.id.i_menu_history -> toast("menu history")
+            R.id.i_menu_saved_place -> toast("menu saved place")
+            R.id.i_menu_help -> toast("menu help")
+            R.id.i_menu_emergency -> toast("menu emergency")
+            R.id.i_menu_setting -> toast("menu setting")
         }
 
         drawerLayout.closeDrawer(GravityCompat.START)
