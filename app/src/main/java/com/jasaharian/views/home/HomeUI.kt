@@ -83,7 +83,7 @@ class HomeUI : AnkoComponent<HomeActivity> {
 
             setNavigationItemSelectedListener(ui.owner)
             inflateHeaderView(R.layout.nav_header_home)
-            inflateMenu(R.menu.activity_home_drawer)
+            inflateMenu(R.menu.home_drawer)
         }
     }
 }
