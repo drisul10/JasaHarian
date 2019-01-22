@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/i_menu_payment"
+              android:title="@string/title_payment" />
+        <item android:id="@+id/i_menu_history"
+              android:title="@string/title_history" />
+        <item android:id="@+id/i_menu_saved_place"
+              android:title="@string/title_saved_place" />
+        <item android:id="@+id/i_menu_help"
+              android:title="@string/title_help" />
+        <item android:id="@+id/i_menu_emergency"
+              android:title="@string/title_emergency" />
+        <item android:id="@+id/i_menu_setting"
+              android:title="@string/title_setting" />
+    </group>
+</menu>
