@@ -13,13 +13,19 @@
     <string name="hint_forgot_password">lupa password?</string>
     <string name="hint_have_account">sudah punya akun?</string>
     <string name="hint_have_no_account">belum punya akun?</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
     <string name="title_payment">payment</string>
     <string name="title_history">history</string>
     <string name="title_saved_place">saved place</string>
     <string name="title_help">help</string>
     <string name="title_emergency">emergency</string>
     <string name="title_setting">setting</string>
+    <string name="title_fav_menu">menu favorit</string>
+    <string name="menu_home">home</string>
+    <string name="menu_inbox">inbox</string>
+    <string name="menu_transaction">transaksi</string>
+    <string name="menu_account">akun</string>
+    <string name="menu_cart">keranjang</string>
     <string name="example_andrisoel">andrisoel</string>
 </resources>
