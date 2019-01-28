@@ -1,13 +1,13 @@
 package com.jasaharian.modules.home
 
 import android.graphics.Color
+import android.support.v7.widget.GridLayoutManager
 import android.view.Gravity
-import android.widget.GridLayout
 import android.widget.LinearLayout
 import android.widget.TextView
 import com.jasaharian.R
 import org.jetbrains.anko.*
-import org.jetbrains.anko.cardview.v7.cardView
+import org.jetbrains.anko.recyclerview.v7.recyclerView
 
 class HomeUI<T> : AnkoComponent<T> {
 
@@ -34,36 +34,10 @@ class HomeUI<T> : AnkoComponent<T> {
                     gravity = Gravity.CENTER
                     clipToPadding = false
 
-                    gridLayout {
-                        columnCount = 4
-                        rowCount = 3
-                        isColumnOrderPreserved = false
-                        alignmentMode = GridLayout.ALIGN_MARGINS
-
-                        cardView {
-                            lparams(width = dip(70), height = dip(70)) {
-                                margin = dip(5)
-                            }
-                            backgroundColor = Color.WHITE
-
-                            linearLayout {
-                                lparams(width = matchParent, height = matchParent)
-                                orientation = LinearLayout.VERTICAL
-                                gravity = Gravity.CENTER
-                                padding = dip(5)
-
-                                imageView {
-                                    backgroundResource = R.drawable.circle_bg_purple
-                                    setImageResource(R.drawable.ic_account_circle_black_24dp)
-                                }.lparams(width = dip(35), height = dip(35))
-
-                                textView {
-                                    gravity = Gravity.CENTER
-                                    text = "text"
-                                    textColorResource = R.color.colorText
-                                }
-                            }
-                        }
+                    recyclerView {
+                        id = R.id.rv_list_menu_favorite
+                        lparams(width = matchParent, height = wrapContent)
+                        layoutManager = GridLayoutManager(ctx, 4)
                     }
                 }
             }
