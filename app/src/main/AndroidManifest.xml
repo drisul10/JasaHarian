@@ -9,7 +9,7 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme" tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".views.SplashActivity">
+        <activity android:name=".modules.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"
                         android:theme="@style/SplashTheme" />
@@ -17,11 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".views.home.HomeActivity" android:theme="@style/AppThemeNoActionBar"/>
-        <activity android:name=".views.auth.login.LoginActivity" android:theme="@style/AuthTheme"/>
-        <activity android:name=".views.auth.register.RegisterActivity" android:theme="@style/AuthTheme"/>
-        <activity android:name=".views.auth.forgotPassword.ForgotPasswordActivity" android:theme="@style/AuthTheme"/>
-        <activity android:name=".views.auth.forgotPassword.ResetPasswordActivity" android:theme="@style/AuthTheme"/>
+        <activity android:name=".modules.main.MainActivity" android:theme="@style/AppThemeNoActionBar"/>
+        <activity android:name=".modules.auth.login.LoginActivity" android:theme="@style/AuthTheme"/>
+        <activity android:name=".modules.auth.register.RegisterActivity" android:theme="@style/AuthTheme"/>
+        <activity android:name=".modules.auth.forgotPassword.ForgotPasswordActivity" android:theme="@style/AuthTheme"/>
+        <activity android:name=".modules.auth.forgotPassword.ResetPasswordActivity" android:theme="@style/AuthTheme"/>
     </application>
 
 </manifest>
