@@ -1,13 +1,18 @@
-package com.jasaharian.views.auth.register
+package com.jasaharian.modules.auth.register
 
 import android.text.InputType.TYPE_CLASS_TEXT
 import android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD
 import android.view.Gravity
+import android.widget.Button
 import android.widget.LinearLayout
 import com.jasaharian.R
 import org.jetbrains.anko.*
 
 class RegisterUI : AnkoComponent<RegisterActivity> {
+
+    lateinit var btRegister: Button
+    lateinit var btLogin: Button
+
     override fun createView(ui: AnkoContext<RegisterActivity>) = with(ui) {
         relativeLayout {
             lparams(width = matchParent, height = matchParent) {
@@ -37,7 +42,7 @@ class RegisterUI : AnkoComponent<RegisterActivity> {
                     hintResource = R.string.hint_confirm_password
                 }
 
-                button {
+                btRegister = button {
                     id = R.id.bt_register
                     textResource = R.string.bt_register
                 }
@@ -53,7 +58,7 @@ class RegisterUI : AnkoComponent<RegisterActivity> {
                         textResource = R.string.hint_have_account
                     }
 
-                    button {
+                    btLogin = button {
                         id = R.id.bt_login
                         textResource = R.string.bt_login
                         background = null
