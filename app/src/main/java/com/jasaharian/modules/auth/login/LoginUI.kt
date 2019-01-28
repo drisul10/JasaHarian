@@ -1,13 +1,19 @@
-package com.jasaharian.views.auth.login
+package com.jasaharian.modules.auth.login
 
 import android.text.InputType.TYPE_CLASS_TEXT
 import android.text.InputType.TYPE_TEXT_VARIATION_PASSWORD
 import android.view.Gravity
+import android.widget.Button
 import android.widget.LinearLayout
 import com.jasaharian.R
 import org.jetbrains.anko.*
 
 class LoginUI : AnkoComponent<LoginActivity> {
+
+    lateinit var btLogin: Button
+    lateinit var btRegister: Button
+    lateinit var btForgotPassword: Button
+
     override fun createView(ui: AnkoContext<LoginActivity>) = with(ui) {
         relativeLayout {
             lparams(width = matchParent, height = matchParent) {
@@ -31,12 +37,12 @@ class LoginUI : AnkoComponent<LoginActivity> {
                     hintResource = R.string.hint_password
                 }
 
-                button {
+                btLogin = button {
                     id = R.id.bt_login
                     textResource = R.string.bt_login
                 }
 
-                button {
+                btForgotPassword = button {
                     id = R.id.bt_forgot_password
                     textResource = R.string.bt_forgot_password
                     background = null
@@ -53,7 +59,7 @@ class LoginUI : AnkoComponent<LoginActivity> {
                         textResource = R.string.hint_have_no_account
                     }
 
-                    button {
+                    btRegister = button {
                         id = R.id.bt_register
                         textResource = R.string.bt_register
                         background = null
