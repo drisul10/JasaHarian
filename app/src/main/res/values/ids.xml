@@ -5,6 +5,7 @@
     <item name="bt_register" type="id" />
     <item name="bt_send" type="id" />
     <item name="bt_save" type="id" />
+    <item name="fl_main_content" type="id" />
     <item name="et_email" type="id" />
     <item name="et_password" type="id" />
     <item name="et_new_password" type="id" />
@@ -22,4 +23,9 @@
     <item name="i_menu_help" type="id" />
     <item name="i_menu_emergency" type="id" />
     <item name="i_menu_setting" type="id" />
+    <item name="nav_menu_home" type="id" />
+    <item name="nav_menu_inbox" type="id" />
+    <item name="nav_menu_transaction" type="id" />
+    <item name="nav_menu_cart" type="id" />
+    <item name="nav_menu_account" type="id" />
 </resources>
