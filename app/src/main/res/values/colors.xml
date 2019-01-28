@@ -6,4 +6,5 @@
     <color name="colorBackground">#E6ECF0</color>
     <color name="colorText">#14171A</color>
     <color name="colorIcon">#8896A1</color>
+    <color name="colorMedPurple">#9370DB</color>
 </resources>
