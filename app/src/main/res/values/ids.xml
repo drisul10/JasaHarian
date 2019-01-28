@@ -14,6 +14,7 @@
     <item name="ly_nav_header_main" type="id" />
     <item name="vw_nav" type="id" />
     <item name="vw_nav_bottom" type="id" />
+    <item name="rv_list_menu_favorite" type="id" />
     <item name="iv_avatar" type="id" />
     <item name="tv_username" type="id" />
     <item name="toolbar" type="id" />
@@ -28,4 +29,6 @@
     <item name="nav_menu_transaction" type="id" />
     <item name="nav_menu_cart" type="id" />
     <item name="nav_menu_account" type="id" />
+    <item name="tv_text_menu_favorite" type="id" />
+    <item name="iv_icon_menu_favorite" type="id" />
 </resources>
