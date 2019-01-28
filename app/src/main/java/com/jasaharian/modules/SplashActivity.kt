@@ -1,9 +1,9 @@
-package com.jasaharian.views
+package com.jasaharian.modules
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import com.jasaharian.views.home.HomeActivity
-import com.jasaharian.views.auth.login.LoginActivity
+import com.jasaharian.modules.main.MainActivity
+import com.jasaharian.modules.auth.login.LoginActivity
 import org.jetbrains.anko.startActivity
 
 class SplashActivity : AppCompatActivity() {
@@ -11,7 +11,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         if (1 > 2) {
-            startActivity<HomeActivity>()
+            startActivity<MainActivity>()
         } else {
             startActivity<LoginActivity>()
         }
