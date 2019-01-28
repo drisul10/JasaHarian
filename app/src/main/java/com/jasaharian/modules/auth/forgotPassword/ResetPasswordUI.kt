@@ -1,12 +1,16 @@
-package com.jasaharian.views.auth.forgotPassword
+package com.jasaharian.modules.auth.forgotPassword
 
 import android.text.InputType
 import android.view.Gravity
+import android.widget.Button
 import android.widget.LinearLayout
 import com.jasaharian.R
 import org.jetbrains.anko.*
 
 class ResetPasswordUI : AnkoComponent<ResetPasswordActivity> {
+
+    lateinit var btSave: Button
+
     override fun createView(ui: AnkoContext<ResetPasswordActivity>) = with(ui) {
         relativeLayout {
             lparams(width = matchParent, height = matchParent) {
@@ -31,7 +35,7 @@ class ResetPasswordUI : AnkoComponent<ResetPasswordActivity> {
                     hintResource = R.string.hint_password
                 }
 
-                button {
+                btSave = button {
                     id = R.id.bt_save
                     textResource = R.string.bt_save
                 }
