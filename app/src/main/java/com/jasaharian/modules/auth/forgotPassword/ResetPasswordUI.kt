@@ -16,6 +16,7 @@ class ResetPasswordUI : AnkoComponent<ResetPasswordActivity> {
             lparams(width = matchParent, height = matchParent) {
                 gravity = Gravity.CENTER_VERTICAL
             }
+            backgroundColorResource = R.color.colorPrimary
 
             linearLayout {
                 lparams(width = matchParent, height = wrapContent) {
