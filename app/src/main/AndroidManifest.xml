@@ -8,7 +8,7 @@
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/AppTheme" tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+            android:theme="@style/AppsTheme" tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity android:name=".modules.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"
@@ -22,6 +22,7 @@
         <activity android:name=".modules.auth.register.RegisterActivity" android:theme="@style/AuthTheme"/>
         <activity android:name=".modules.auth.forgotPassword.ForgotPasswordActivity" android:theme="@style/AuthTheme"/>
         <activity android:name=".modules.auth.forgotPassword.ResetPasswordActivity" android:theme="@style/AuthTheme"/>
+        <activity android:name=".modules.laundry.LaundryActivity" android:theme="@style/AppThemeNoActionBar"/>
     </application>
 
 </manifest>
