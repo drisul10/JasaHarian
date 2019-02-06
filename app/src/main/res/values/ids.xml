@@ -15,16 +15,27 @@
 
     <!--gridLayout-->
     <item name="gl_list_menu_favorite" type="id"/>
+    <item name="gl_menu_service_laundry" type="id"/>
 
     <!--linearLayout-->
     <item name="ll" type="id"/>
 
     <item name="vw_nav" type="id"/>
     <item name="vw_nav_bottom" type="id"/>
+
+    <!--recyclerView-->
     <item name="rv_list_menu_favorite" type="id"/>
     <item name="rv_list_menu_promo" type="id"/>
+    <item name="rv_menu_service_laundry" type="id"/>
+
+    <!--imageView-->
     <item name="iv_avatar" type="id"/>
+    <item name="iv_badge_item_service_laundry" type="id"/>
+
+    <!--textView-->
     <item name="tv_username" type="id"/>
+    <item name="tv_name_item_service_laundry" type="id"/>
+
     <item name="toolbar" type="id"/>
     <item name="i_menu_payment" type="id"/>
     <item name="i_menu_history" type="id"/>
