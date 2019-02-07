@@ -25,7 +25,7 @@ class CategoryAdapter(
         val item = list[position]
 
         holder.tvName.text = item.name
-        holder.ivBadge.setImageResource(item.logo)
+        holder.ivBadge.setImageResource(item.badge)
     }
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
